@@ -85,10 +85,9 @@ body {color:var(--primary-text-color);
 .mail .item + .item {margin-left: 40px;}
 
 .mail .address {display: block;
-                width: 180px; 
                 padding-top: 24px;
                 padding-bottom: 24px;}
-
+ 
 .nav .site .link {display: block;
                   padding-top: 24px;
                   padding-bottom: 24px;
