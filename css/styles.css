@@ -82,6 +82,8 @@ body {color:var(--primary-text-color);
 
 .mail {display: flex;}
 
+.item {display: flex;}
+
 .mail .item + .item {margin-left: 40px;}
 
 .mail .address {display: block;
