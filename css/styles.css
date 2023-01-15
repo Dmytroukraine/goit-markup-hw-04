@@ -116,7 +116,13 @@ body {color:var(--primary-text-color);
                text-align: center; 
                padding-top: 192px;
                padding-bottom: 192px;
-               background-image: url('../images/headerback.jpg');}
+               max-width: 1440px;
+               min-height: 600px;
+               margin-left: auto;
+               margin-right: auto;
+               background-image: url('../images/headerback.jpg');
+               background-repeat: no-repeat;
+               background-position: center;}
 
 .main.header {margin-bottom: 48px;
               align-self: center; 
