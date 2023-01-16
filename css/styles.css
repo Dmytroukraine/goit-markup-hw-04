@@ -108,11 +108,11 @@ body {color:var(--primary-text-color);
 
 .mail .address:hover  {color:var(--accent-color);}  
 
-.mail .address:focus  {color:var(--accent-color);}    
+.mail .address:focus  {color:var(--accent-color);}   
 
 /* block hero */
 
-.header-title {background:var(--title-text-color);
+.header-title {background:var(--primary-text-color);
                text-align: center; 
                padding-top: 192px;
                padding-bottom: 192px;
@@ -204,7 +204,39 @@ body {color:var(--primary-text-color);
 
 .description-ul .description-title + .description-title {margin-left: 24px;} 
 
-.description-title {width: 264px;}   
+.description-title {width: 264px;}
+.description-title.antena::before {display: inline-block;
+                                   content: '';
+                                   width: 264px;
+                                   height: 112px;
+                                   background-image: url(../images/antenna.svg);
+                                   background-repeat: no-repeat;
+                                   background-position: center;} 
+.description-title.clock::before {display: inline-block;
+                                   content: '';
+                                   width: 264px;
+                                   height: 112px;
+                                   background-image: url(../images/clock.svg);
+                                   background-repeat: no-repeat;
+                                   background-position: center;}
+                                   
+.description-title.diagram::before {display: inline-block;
+                                   content: '';
+                                   width: 264px;
+                                   height: 112px;
+                                   background-image: url(../images/diagram.svg);
+                                   background-repeat: no-repeat;
+                                   background-position: center;} 
+                                          
+.description-title.astronaut::before {display: inline-block;
+                                   content: '';
+                                   width: 264px;
+                                   height: 112px;
+                                   background-image: url(../images/astronaut.svg);
+                                   background-repeat: no-repeat;
+                                   background-position: center;}                                          
+                                   
+
 
 .description-header {font-weight: 500;
                      font-size: 20px;
