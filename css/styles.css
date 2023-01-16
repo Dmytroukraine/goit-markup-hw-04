@@ -205,41 +205,16 @@ body {color:var(--primary-text-color);
 .description-ul .description-title + .description-title {margin-left: 24px;} 
 
 .description-title {width: 264px;}
-.description-title.antena::before {display: inline-block;
-                                   content: '';
-                                   width: 264px;
-                                   height: 112px;
-                                   background-image: url(../images/antenna.svg);
-                                   background-repeat: no-repeat;
-                                   background-position: center;
-                                   background-color: var(--other-background-color);} 
-
-.description-title.clock::before {display: inline-block;
-                                   content: '';
-                                   width: 264px;
-                                   height: 112px;
-                                   background-image: url(../images/clock.svg);
-                                   background-repeat: no-repeat;
-                                   background-position: center;
-                                   background-color: var(--other-background-color);}
-                                   
-.description-title.diagram::before {display: inline-block;
-                                   content: '';
-                                   width: 264px;
-                                   height: 112px;
-                                   background-image: url(../images/diagram.svg);
-                                   background-repeat: no-repeat;
-                                   background-position: center;
-                                   background-color: var(--other-background-color);} 
-                                          
-.description-title.astronaut::before {display: inline-block;
-                                   content: '';
-                                   width: 264px;
-                                   height: 112px;
-                                   background-image: url(../images/astronaut.svg);
-                                   background-repeat: no-repeat;
-                                   background-position: center;
-                                   background-color: var(--other-background-color);}                                          
+.description-title::before {display:block;
+                            content: '';
+                            height: 112px;
+                            background-repeat: no-repeat;
+                            background-position: center;
+                            background-color: var(--other-background-color);} 
+.description-title:nth-child(1)::before {background-image: url(../images/antenna.svg);}
+.description-title:nth-child(2)::before {background-image: url(../images/clock.svg);}
+.description-title:nth-child(3)::before {background-image: url(../images/diagram.svg);} 
+.description-title:nth-child(4)::before {background-image: url(../images/astronaut.svg);}                                          
                                    
 
 
