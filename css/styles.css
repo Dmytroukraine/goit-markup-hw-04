@@ -326,7 +326,11 @@ body {color:var(--primary-text-color);
     
 .team-text-name {color:var(--primary-text-color);
                  letter-spacing: 0.02em;
-                 text-align: center;} 
+                 text-align: center;
+                 margin-bottom: 12px;} 
+
+
+/* social links */
 
  .button-icons {padding: 0;
                width: 40px;
@@ -344,19 +348,29 @@ body {color:var(--primary-text-color);
 
 .icons:hover {fill: currentColor;}  
 
-.list-icons {display: inline-flex;
+/* .list-icons {display: inline-flex;
+              height: 40px;
               margin-left: 16px;
               margin-top: 12px;
-              background-color: var(--second-text-color);}                 
-.list-icons .social-icons +.social-icons {margin-left: 24px;}
+              background-color:var(--second-text-color);}                 
+.list-icons .social-icons +.social-icons {margin-left: 24px;} */
 
+.list-icons {display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              padding: 4px 0px;
+              gap: 24px;
+              width: 232px;
+              height: 48px;
+              padding-top: 12px;}
 
-
-
-
-
-.full-position { padding-top: 32px;
-                 padding-bottom: 36px;}                  
+.full-position {display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top: 32px;
+                padding-bottom: 36px;}
 
 .description-app:hover, .description-app:focus {color: var(--accent-color);}
 
