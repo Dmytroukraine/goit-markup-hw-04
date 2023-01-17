@@ -327,27 +327,27 @@ body {color:var(--primary-text-color);
 .team-text-name {color:var(--primary-text-color);
                  letter-spacing: 0.02em;
                  text-align: center;} 
-                 
-.button-icons {padding: 0;
-               border: 0;
+
+ .button-icons {padding: 0;
                width: 40px;
                height: 40px;
-               color: var(--second-text-color); 
+               color:var(--second-text-color); 
                border: none;
                border-radius: 50%;
-               background-color:var(--accent-color);
-               cursor: pointer;}
+               background-color: var(--accent-color); 
+               cursor: pointer;}  
 
-.icons {fill: var(--second-text-color)}
+ .icons {fill: var(--second-text-color);} 
 
-.icons:hover {color: var(--accent-color);
-              background-color:var(--second-text-color)}
+.icons:hover {color :var(--accent-color);
+              background-color: var(--second-text-color);} 
 
-.icons:hover {fill: currentColor;}
+.icons:hover {fill: currentColor;}  
 
 .list-icons {display: inline-flex;
               margin-left: 16px;
-              margin-top: 12px;}                 
+              margin-top: 12px;
+              background-color: var(--second-text-color);}                 
 .list-icons .social-icons +.social-icons {margin-left: 24px;}
 
 
