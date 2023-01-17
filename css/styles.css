@@ -103,7 +103,7 @@ body {color:var(--primary-text-color);
 
 .nav .site .link:hover, .nav .site .link:focus {color:var(--accent-color);}  
 
-.mail .address, .ul .style {color:var(--primary-text-color);
+.mail .address {color:var(--primary-text-color);
                             text-decoration: none;} 
 
 .mail .address:hover  {color:var(--accent-color);}  
@@ -331,16 +331,18 @@ body {color:var(--primary-text-color);
 
 
 /* social links */
-
+ 
 .a-icons {padding: 0;
           width: 40px;
-       height: 40px;
-       color:var(--accent-color) ; 
-       background-color:var(--second-text-color);}
+          height: 40px;
+          color:var(--accent-color) ; 
+          background-color:var(--second-text-color);
+          }
 
-.a-icons:hover {color: var(--second-text-color);}       
+.a-icons:hover {color: var(--second-text-color);}   
 
-.icon {fill: currentColor;}
+.a-icons {fill:currentColor;} 
+
 
 
 
