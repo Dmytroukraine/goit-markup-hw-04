@@ -378,8 +378,6 @@ body {color:var(--primary-text-color);
 
 /* Customers */
 
-.customers {}
-
 .customers-header {font-weight: 700;
                    font-size: 36px;
                    line-height: 1.12;
@@ -396,7 +394,10 @@ body {color:var(--primary-text-color);
                  margin-bottom: 120px;}  
               
  .customers-type {border-radius: 5px;
-       border: solid 1px  #87919B;}
+                  border: solid 1px  #87919B;}
+
+             
+              
 /* footer */
 
 .footer {background: var(--title-text-color);
@@ -418,6 +419,13 @@ body {color:var(--primary-text-color);
 .footer-text {color: #E7E9FC;
               letter-spacing: 0.02em;
               width: 265px;}
+
+.footer-header {font-weight: 600;
+       font-size: 16px;
+       line-height: 1.5;
+       letter-spacing: 0.02em;
+        color:var(--second-text-color);}
+           
 
 /* hiden title */
 
