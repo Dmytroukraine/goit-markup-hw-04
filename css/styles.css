@@ -326,10 +326,14 @@ body {color:var(--primary-text-color);
     
 .team-text-name {color:var(--primary-text-color);
                  letter-spacing: 0.02em;
-                 text-align: center;}    
-
+                 text-align: center;}  
+                 
+.list-icons {display: inline-flex;
+              margin-left: 16px;
+              margin-top: 12px;}                 
+.list-icons .social-icons +.social-icons {margin-left: 24px;}
 .full-position { padding-top: 32px;
-                 padding-bottom: 32px;}                  
+                 padding-bottom: 36px;}                  
 
 .description-app:hover, .description-app:focus {color: var(--accent-color);}
 
