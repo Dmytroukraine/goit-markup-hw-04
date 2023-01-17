@@ -376,6 +376,27 @@ body {color:var(--primary-text-color);
 
 .style:hover, .style:focus {color: var(--accent-color);}                 
 
+/* Customers */
+
+.customers {}
+
+.customers-header {font-weight: 700;
+                   font-size: 36px;
+                   line-height: 1.12;
+                   text-align: center;
+                   letter-spacing: 0.03em;
+                   color:var(--title-text-color);
+                     margin-bottom: 72px; }
+
+.customers-list {display: flex;
+                 flex-direction: row;
+                 align-items: flex-start;
+                 padding: 0px;
+                 gap: 24px;
+                 margin-bottom: 120px;}  
+              
+ .customers-type {border-radius: 5px;
+       border: solid 1px  #87919B;}
 /* footer */
 
 .footer {background: var(--title-text-color);
