@@ -335,16 +335,13 @@ body {color:var(--primary-text-color);
 .a-icons {padding: 0;
           width: 40px;
           height: 40px;
-          color:var(--accent-color) ; 
-          background-color:var(--second-text-color);
+          color: var(--accent-color);
+          background-color: var(--second-text-color);       
           }
 
-.a-icons:hover {color: var(--second-text-color);}   
+.a-icons:hover {color:var(--second-text-color);}   
 
 .a-icons {fill:currentColor;} 
-
-
-
 
 
  .button-icons {padding: 0;
@@ -391,7 +388,9 @@ body {color:var(--primary-text-color);
 
 .style:hover, .style:focus {color: var(--accent-color);}                 
 
+
 /* Customers */
+
 
 .customers-header {font-weight: 700;
                    font-size: 36px;
@@ -416,6 +415,7 @@ body {color:var(--primary-text-color);
               
 /* footer */
 
+
 .footer {background: var(--title-text-color);
          padding-top: 100px;
          padding-bottom: 100px;}
@@ -436,12 +436,14 @@ body {color:var(--primary-text-color);
               letter-spacing: 0.02em;
               width: 265px;}
 
-/* .footer-header {font-weight: 600;
+.footer-header {font-weight: 600;
        font-size: 16px;
        line-height: 1.5;
        letter-spacing: 0.02em;
-        color:var(--second-text-color);} */
-           
+        color:var(--second-text-color);} 
+
+.ftr-social {display:inline-flex;}          
+.footer-list {display:inline-flex;}
 
 /* hiden title */
 
