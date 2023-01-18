@@ -334,10 +334,27 @@ body {color:var(--primary-text-color);
 
 /* 1 variant */
 
-.footer-icon {fill: #FFFFFF;}
 
-.footer-icon:hover {fill: var(--accent-color);}
 
+
+.ic-tes {fill: #FFFFFF;}
+
+
+.ic-tes:hover {fill: var(--accent-color);}
+
+
+.test {display: inline-flex;
+       align-items: center;
+       justify-content: center;
+       height: 40px;
+       width: 40px;
+       margin: 0 auto;
+       text-align: center;
+       border: none;
+       border-radius: 50%;
+       background-color:var(--accent-color);}
+
+.test:hover {background-color:var(--second-text-color);}
 
 
 
@@ -352,7 +369,6 @@ body {color:var(--primary-text-color);
 .a-icons:hover {color:var(--second-text-color);}   
 
 .a-icons {fill:currentColor;} 
-
 
 /* 2 variant */
 
@@ -380,9 +396,9 @@ body {color:var(--primary-text-color);
 .list-icons .social-icons +.social-icons {margin-left: 24px;} */
 
 .list-icons {display: inline-flex;
-              flex-direction: row;
-              justify-content: center;
-              align-items: center;
+              /* flex-direction: row; */
+              /* justify-content: center; */
+              /* align-items: center; */
               padding: 4px 0px;
               gap: 24px;
               width: 232px;
