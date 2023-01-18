@@ -333,6 +333,15 @@ body {color:var(--primary-text-color);
 /* social links */
 
 /* 1 variant */
+
+.footer-icon {fill: #FFFFFF;}
+
+.footer-icon:hover {fill: var(--accent-color);}
+
+
+
+
+
  
 .a-icons {padding: 0;
           width: 40px;
