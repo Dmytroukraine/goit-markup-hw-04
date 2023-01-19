@@ -206,17 +206,37 @@ body {color:var(--primary-text-color);
 
 .description-title {width: 264px;}
 
-.description-title::before {display:block;
-                            content: '';
-                            height: 112px;
-                            background-repeat: no-repeat;
-                            background-position: center;
-                            background-color: var(--other-background-color);} 
+.description-items{width: 264px;
+                   height: 112px;
+                   margin-bottom: 8px;}
+
+ /* variant svg */
+
+.description-link {width: 100%;
+                   height: 100%;
+                   background-color: #F4F4FD;
+                   border-radius: 4px;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;}
+
+.description-link:hover,
+.description-link:focus{box-shadow: 5px 3px 3px#87919B;}                   
+
+/* variant bgi */
+
+/* .description-title::before {display:block;
+                               content: '';
+                               height: 112px;
+                               background-repeat: no-repeat;
+                               background-position: center;
+                               background-color: var(--other-background-color);} 
                             
 .description-title:nth-child(1)::before {background-image: url(../images/antenna.svg);}
 .description-title:nth-child(2)::before {background-image: url(../images/clock.svg);}
 .description-title:nth-child(3)::before {background-image: url(../images/diagram.svg);} 
-.description-title:nth-child(4)::before {background-image: url(../images/astronaut.svg);}                                          
+.description-title:nth-child(4)::before {background-image: url(../images/astronaut.svg);}                                           */
+
 
 .description-header {font-weight: 500;
                      font-size: 20px;
@@ -335,8 +355,6 @@ body {color:var(--primary-text-color);
 /* 1 variant */
 
 
-
-
 .ic-tes {fill: #FFFFFF;}
 
 
@@ -435,6 +453,12 @@ body {color:var(--primary-text-color);
                  padding: 0px;
                  gap: 24px;
                  margin-bottom: 120px;}  
+
+                 .customers-items{
+                     width: 168px;
+                     height: 88px;
+                     
+                 }
 
 .customers-link{display: flex;
                 align-items: center;
