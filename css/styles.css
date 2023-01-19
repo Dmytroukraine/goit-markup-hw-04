@@ -354,12 +354,7 @@ body {color:var(--primary-text-color);
 
 /* 1 variant */
 
-
 .ic-tes {fill: #FFFFFF;}
-
-
-.ic-tes:hover {fill: var(--accent-color);}
-
 
 .test {display: inline-flex;
        align-items: center;
@@ -372,25 +367,11 @@ body {color:var(--primary-text-color);
        border-radius: 50%;
        background-color:var(--accent-color);}
 
-.test:hover {background-color:var(--second-text-color);}
-
-
-
-
+.test:hover {background-color:#87919B;}
  
-.a-icons {padding: 0;
-          width: 40px;
-          height: 40px;
-          color: var(--accent-color);
-          background-color: var(--second-text-color);}
-
-.a-icons:hover {color:var(--second-text-color);}   
-
-.a-icons {fill:currentColor;} 
-
 /* 2 variant */
 
- .button-icons {padding: 0;
+ /* .button-icons {padding: 0;
                width: 40px;
                height: 40px;
                color:var(--second-text-color); 
@@ -404,19 +385,13 @@ body {color:var(--primary-text-color);
 .icons:hover {color :var(--accent-color);
               background-color: var(--second-text-color);} 
 
-.icons:hover {fill: currentColor;}  
+.icons:hover {fill: currentColor;}   */
 
-/* .list-icons {display: inline-flex;
-              height: 40px;
-              margin-left: 16px;
-              margin-top: 12px;
-              background-color:var(--second-text-color);}                 
-.list-icons .social-icons +.social-icons {margin-left: 24px;} */
 
 .list-icons {display: inline-flex;
-              /* flex-direction: row; */
-              /* justify-content: center; */
-              /* align-items: center; */
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
               padding: 4px 0px;
               gap: 24px;
               width: 232px;
@@ -456,9 +431,7 @@ body {color:var(--primary-text-color);
 
                  .customers-items{
                      width: 168px;
-                     height: 88px;
-                     
-                 }
+                     height: 88px;}
 
 .customers-link{display: flex;
                 align-items: center;
@@ -511,7 +484,7 @@ body {color:var(--primary-text-color);
 .footer-list, .footer-link {display:inline-flex;}
 
 .footer-link {gap: 16px;}
-
+              
 .footer-head {margin-left: 120px;}
 
 .footer-icon {fill: #FFFFFF;}
