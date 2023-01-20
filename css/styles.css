@@ -46,8 +46,7 @@ body {color:var(--primary-text-color);
 
 /* header */
  
-.header-main {border-width: 0, 0, 5px, 0;
-              background: var(--second-text-color);
+.header-main {background: var(--second-text-color);
               box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
               0px 1px 1px rgba(46, 47, 66, 0.16),
               0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -140,7 +139,7 @@ body {color:var(--primary-text-color);
 
 .button {color:var(--second-text-color); 
         background:var(--accent-color);    
-        padding-left: 16px 32px;    
+        padding-left: 16px;    
         font-weight: 500;
         line-height: 1.1;
         align-items: center; 
